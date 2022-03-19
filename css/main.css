@@ -15,6 +15,7 @@ body{
 
 
 
+
 .wrapper {
     background: rgb(15, 15, 15);
     color: #fff;
@@ -77,4 +78,30 @@ body{
 .item-links {
 }
 .item-links__icon {
+}
+
+@media (max-width: 500px) {
+    .main__content{
+        background-color:rgba(255, 255, 255, 0);
+    }
+    .main__title{
+        text-align: center;
+        font-size: 40px;
+    }
+    .main__links {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+
+    .main__decor {
+        display: block;
+        width: 100px;
+    }
+}
+
+@media (min-width: 767px) {
+    .main__decor {
+        display: none;
+    }
 }
