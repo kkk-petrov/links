@@ -1,3 +1,6 @@
+// Да, я украл этот код
+
+
 let snowmax
 snowmax=Math.random()*60;let snowcolor=new Array("#aaaaccad","#ddddffb2","#ccccddab","#F3F3F3")
 let snowtype=new Array("Arial Black","Arial Narrow","Times","Comic Sans MS");let snowletter="●";let sinkspeed
